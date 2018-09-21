@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simple To Do List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.js" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Lobster&subset=vietnamese');
+    </style>
+    <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+    
+</head>
+<body>
+    <div class="bg">
+        <h1 class="text-center">TO DO LIST</h1>
+        <h3 class="text-center " id="welcome"></h3>
+       
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col" style="margin-left:8em; " ></div>
+                
+                <div class="col"><div class="time" id="hour"></div></div>
+                
+                <div class="col"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col"></div>
+                
+                <div class="input-group col col-sm-4 mb-3 mt-5" >
+                    
+                  
+                        <input class="form-control" placeholder="Your Task"  id="todo" required>
+                        
+                        <button id="add_button" type="submit" class="btn btn-primary">Add</button>
+                 
+                </div>
+                
+               
+                <div class="col"></div>
+            </div>
+        </div>  
+       
+        <h3 class="text-center" class="jmltodo" id=jumlah></h3>
+        
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col">
+                        <ul class="list-group list-group-item-info list-group-flush align-items-center" id="list" >
+                          
+                        </ul>
+                </div>
+                <div class="col"></div>
+            </div>
+           
+        </div>
+       
+    </div>
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
+
